@@ -1,14 +1,14 @@
 import React from 'react';
-import './App.css';
+import PIAIC from './piaic.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      Hello world
-      </header>
+      <PIAIC course_name='Web Development' />
+      <PIAIC course_name='AI'/>
     </div>
   );
 }
 
 export default App;
+ 
